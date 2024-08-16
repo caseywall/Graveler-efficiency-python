@@ -1,4 +1,7 @@
 # Graveler-efficiency-python
+
+**\*Oops I fogot to mention I didnt do it as many times as you but the concept still stands. I did 100,000 instead of a billion but it still stands\***
+
 Showing more efficient python code for the Graveler problem using multiprocessing and more efficient functions
 
 I created the new_methods.py to find what methods work best for this problem.
