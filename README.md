@@ -3,6 +3,7 @@ Showing more efficient python code for the Graveler problem using multiprocessin
 
 I created the new_methods.py to find what methods work best for this problem.
 The old method was just slightly modified for easier testing.
+
 To test effiency I have, in the past, created a decorator that can test functions. This is found tin the timer.py. It begins with a set warmup to let the compiler warm up then tests a set number of times and gives averages.
 
 p.s. You might have to pip install things like numpy if you don't already have them in the env
