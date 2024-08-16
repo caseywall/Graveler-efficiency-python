@@ -10,9 +10,10 @@ p.s. You might have to pip install things like numpy if you don't already have t
 ### Findings
 
 - It was found that modification of the rolling function sped up the time by a lot.
-- There is nearly no need for stopping the program at 177 as it is nearly impossible to acheive that but this would make things much  faster if this value was lowered
+- There is nearly no need for stopping the program at 177 as it is nearly impossible to acheive that, but this would make things much faster if this value was lowered (though this waas implimented in all)
 - A sequential approach works best with this small number of rolls
 - If given a large number of rolls the multiprocessed version works the best and also multithreading runs about the same as the sequential approach
+- All of the non-sequential approachs will give different results mattering the number of given max threads
 
 ### Output
 For the old_method.py
